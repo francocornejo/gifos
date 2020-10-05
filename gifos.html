@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gifos</title>
+    <link href= "https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap"  rel="stylesheet">
+    <link rel="stylesheet" href="day_theme.css">
+    <link rel="stylesheet" href="night_theme.css">
+    
+    
+    
+</head>
+<body class="day_theme">   
+        <div class="bienvenidos">
+            <p>¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número de visitas: 12.765.803</p>
+        </div>
+    <div class="probar_div">
+    <header>
+        <div id="logo" class="logoGif">
+            <img class="logoLight" src="./gifOF_logo.png" alt="">
+        </div>
+        
+        <div class="button">   
+            <a href="upload.html"><button class="buttonGif buttonCreate" style="width: 144px; height: 36px;">Crear Gifos</button></a>  
+            <button class="buttonGif" style="width: 144px; height: 36px; margin-left: 10px;">Elegir Tema</button>           
+            <button id="dropdown" class="buttonGif" style="width: 36px; height: 36px; position: relative; right: 5px;"><img src="./assets/dropdown.svg" alt="F"></button>
+            
+                <div class="buttonSaylor hideSaylor">                      
+                    <button class="saylorDay" id="day">Saylor Day</button>                    
+                    <button class="saylorNight" id="night">Saylor Night</button>                
+                </div>
+        </div>
+        
+        <div>
+            <p class="mis_gifos"><ins>M</ins>is Guifos</p>
+        </div>
+    </header>
+
+    <div class="searchGif">
+        <p class="palabra_buscar">Buscar</p>    
+        <input id="searchBar" type="search" name="busquedaGifs" placeholder="Busca gifs, hashtags, temas, busca lo que quieras…">    
+        <button id="searchButton" class="buttonSearchGif buttonWrite">
+            <div class="lupa"></div>
+            <p class="lupaBuscar">Buscar</p>
+        </button>
+
+        <div class="buttonTagDiv hideButtonTag">
+            <div><button class="buttonTag1" data-search="argentina">#Argentina</button></div>
+            <div><button class="buttonTag2" data-search="programacion">#Programacion</button></div>
+            <div><button class="buttonTag3" data-search="lancha">#Mas vehiculos</button></div>           
+        </div>
+
+        <ul class="barEjemplos barEjemplosHide">
+            <li id="sugerido"><p data-search="Perro"> Busca sobre perros</p></li>
+            <li id="similar"><p data-search="Avion">Resultados sobre Aviones</p></li>
+            <li id="otroMas"><p data-search="Moto">Aca tenes mas motos</p></li>
+        </ul>
+    </div>  
+    
+    <div id="Sugerencias">
+        <input class="suggest" type="search" name="HoyTeSugerimos" placeholder="Hoy te sugerimos">
+        <div id="containBox" class="containBox">
+        </div>
+    </div>
+    
+    <div id="Tendencias" class="tendencias">   
+        <input class="trends" type="search" name="tendencias" placeholder="Tendencias">
+            
+            <div id="gifTendencias">
+            </div>           
+    </div>
+
+    <div id="gifs" class="gifHide gifBueno">
+        <input id="textSearch" type="search" >
+    </div>
+
+</div>
+
+
+<script src="./javagifos.js" > </script>
+</body>
+</html>

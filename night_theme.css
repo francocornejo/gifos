@@ -1,0 +1,468 @@
+.night_theme , body {
+    background-color:#110038;
+}
+
+.night_theme .probar_div {
+    margin-left: 100px;
+}
+
+.night_theme .bienvenidos p {
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+}
+
+.night_theme .bienvenidos {
+    width: 1360px;
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    box-shadow: 0 1px 0 0 #110038;
+    position: relative;
+    bottom: 12px;
+}
+
+/* --------------------- HEADER   --------------------     */
+
+.night_theme .buttonGif {
+    color: #FFFFFF;
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.night_theme .logoGif{
+    margin: 50px;
+    position: relative;
+    bottom: 30px;
+    right: 50px;
+}
+
+.night_theme .button {
+    position: relative;
+    left: 750px;
+    bottom: 130px;
+    width: 450px;
+}
+
+.night_theme .mis_gifos{
+    position: absolute;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 18px;
+    width: 90px;
+    top: 42px;
+    left: 1200px;
+    
+}
+
+.night_theme .mis_gifos p {
+    width: 40px;
+}
+
+.night_theme .buttonSaylor {
+    
+        font-family: "Chakra Petch", sans-serif;
+        display: flex;
+        flex-direction: column;
+        width: 170px;
+        height: 102px;
+        position: absolute;
+        z-index: 99;
+        left: 158px;
+        background: #B4B4B4;
+        box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+        
+}
+
+.night_theme .saylorDay {
+    width: 150px;
+    height: 36px;
+    background: #CCCCCC;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    display: block;
+}
+
+.night_theme .saylorNight {
+    width: 150px;
+    height: 36px;
+    background: #cccccc;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    display: block;
+}
+
+.night_theme .buttonSearchGif {
+    width: 102px;
+    height: 36px;
+    position: relative;
+    color: #B4B4B4;
+    font-size: 16px;
+    left: 15px;
+    background: #B4B4B4;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+
+/*-------------- Esconder cambios de tema--------------------- */
+
+.night_theme .hideSaylor {
+    display: none;
+}
+
+/*---------------------------SEARCH GIF --------------------------*/
+
+.night_theme .searchGif{
+    width: 1200px;
+    height: 99px;
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+    position: relative;
+    bottom: 120px;
+}
+
+.night_theme .searchGif input {
+    width: 1057px;
+    height: 48px;
+    position: relative;
+    left: 10px;
+    bottom: 30px;
+
+}
+
+.night_theme .palabra_buscar {
+    color: white;
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 14px;
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.night_theme .buttonSearchGif {
+    width: 102px;
+    height: 36px;
+    background: #E6E6E6;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    position: relative;
+    left: 15px;
+}
+
+.night_theme .barEjemplos {
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 16px;
+    color: #110038;
+    letter-spacing: 0;
+    line-height: 22px;
+    height: 160px;
+    background: #B4B4B4;
+    box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+    position: relative;
+    bottom: 28px;
+    padding-top: 5px; 
+    z-index: 99;
+}
+
+.night_theme .barEjemplos p {
+    margin: 8px;
+}
+
+.night_theme .colorSearch {
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #EE3EFE;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.night_theme .closeButton {
+    position: absolute;
+    left: 260px;
+}
+
+/*------------------------SUGERIDO--SIMILAR---OTRO MAS----------------------------------------*/
+.night_theme  #sugerido{
+    list-style: none;
+    width: 1055px;
+    height: 36px;
+    background: #CCCCCC;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    left: -30px;
+    position: relative;
+    margin-top: 10px;   
+}
+
+.night_theme li#sugerido {
+    border: 1px dotted #110038;
+}
+
+.night_theme  #similar {
+    list-style: none;
+    width: 1055px;
+    height: 36px;
+    background: #CCCCCC;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    left: -30px;
+    position: relative;
+    margin-top: 10px;   
+}
+
+.night_theme  #otroMas {
+    list-style: none;
+    width: 1055px;
+    height: 36px;
+    background: #CCCCCC;
+    border: 1px solid #808080;
+    box-shadow: inset -1px -1px 0 0 #B4B4B4, inset 1px 1px 0 0 #FFFFFF;
+    left: -30px;
+    position: relative;
+    margin-top: 10px;   
+}
+
+.night_theme .buttonTagDiv{
+    display: flex;
+        width: 415px;
+        justify-content: space-between;
+        position: absolute;
+    }
+
+.night_theme .buttonTag1{
+        color: #FFFFFF;
+        width: 100px;
+        height: 34px;
+        background: #4180F6;
+        border: 1px solid #4C2F99;
+        box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+    }
+    
+.night_theme .buttonTag2{
+        color: #FFFFFF;
+        width: 154px;
+        height: 34px;
+        background: #4180F6;
+        border: 1px solid #4C2F99;
+        box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+    }
+    
+.night_theme .buttonTag3{
+        color: #FFFFFF;
+        width: 140px;
+        height: 34px;
+        background: #4180F6;
+        border: 1px solid #4C2F99;
+        box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+    }
+
+.night_theme .hideButtonTag{
+        display: none;
+    }
+    
+
+/*-----------SUGGEST------------*/
+
+.night_theme .containBox {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    bottom: 50px;
+    position: relative;
+}
+
+.night_theme .titleBox p {
+
+    font-family: "ChakraPetch", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    width: 280px;
+    height: 24px;
+    background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+    margin-left: 3px;
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.night_theme .suggest {
+    background: #FFFAFE;
+    width: 1200px;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+    height: 32px;
+    bottom: 50px;
+    position: relative;
+}
+
+.night_theme .titleBox {
+    width: 288px;
+    height: 313px;
+    background: #E6E6E6;
+    box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF; 
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+.night_theme .buttonVer {
+    font-family: "ChakraPetch", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 18px;
+    background: #4180F6;
+    border: 1px solid #4C2F99;
+    box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+    width: 81px;
+    height: 34px;
+    position: relative;
+    left: 20px;
+    bottom: 50px;
+}
+
+/*-----------TRENDS-----------------*/
+
+.night_theme #gifTendencias {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.night_theme .trends {
+    width: 1200px;
+    height: 32px;
+    background: #FFFAFE;
+    border: 1px solid #E6BBE2;
+    box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+}
+
+.night_theme .containGifSearch {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+    width: 288px;
+    height: 298px;
+}
+
+.night_theme .gifHide {
+    display: none;
+}
+
+.night_theme .barEjemplosHide {
+    display: none;
+}
+
+.night_theme .sugerenciasHide {
+    display: none;
+}
+
+.night_theme .tendenciasHide {
+    display: none;
+}
+
+.night_theme .gifBueno {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.night_theme .vacia {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 5px;
+    width: 288px;
+    height: 298px;   
+}
+
+/*--------HOVER -- ACTIVE ------------*/
+
+.night_theme .buttonGif:hover {
+    background: #A72CB3;
+    border: 1px dotted #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.night_theme .buttonGif:active {
+    border: 1px solid #110038;
+}
+
+.night_theme .mis_gifos:hover{
+    border: 1px dotted #FFFFFF;
+}
+
+.night_theme .mis_gifos:active{
+    width: 76px;
+    height: 18px;
+    font-size: 16px;
+    font-family: "Chakra Petch", sans-serif;
+    color: #948aaa;
+    letter-spacing: 0;
+    line-height: 18px;
+}
+
+.saylorDay:active {
+    background: #FFF4FD;
+    border: 1px solid #CCA6C9;
+    box-shadow: inset -1px -1px 0 0 #E6DCE4, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.saylorNight:active {
+    background: #2E32FB;
+}
+
+
+.night_theme .buttonSearchGif:active {
+    color: #FFFFFF;
+    background: #CE36DB;
+    border: 1px dotted #110038;
+}
+
+/*----------------------LUPA CON SUS ACTIVE---------------*/
+.lupaBuscar {
+    width: 85px;
+    position: relative;
+    top: -33px;
+    left: 10px;
+}
+
+.night_theme .lupa {
+    margin: 10px;
+    width: 16px;
+    height: 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.night_theme .lupa {
+    background-image: url(assets/Combined\ Shape.svg);
+}
+.night_theme .buttonSearchGif:active .lupa {
+    background-image: url(assets/lupa_light.svg);
+}
+
+.night_theme .probar {
+    font-size: 16px;
+    color: #110038;
+    background: #E6BBE2;
+    border: 1px solid #110038;
+    box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
